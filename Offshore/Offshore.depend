@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1590197771 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\abc2alphabeta.c
+	<math.h>
+
+1588038373 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\alphabeta2abc.c
+	<math.h>
+
+1587074211 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\calculate_cp.c
+	<math.h>
+
+1590095424 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\checkzone.c
+	<math.h>
+
+1587941316 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\dq2alphabeta.c
+	<math.h>
+
+1587334941 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\ini.c
+	<math.h>
+
+1585463065 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\init_cond.c
+
+1585505372 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\integrator_ini.c
+
+1587247083 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\ramp.c
+	<math.h>
+
+1590094060 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\select_output.c
+	<math.h>
+
+1590025284 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\selector.c
+
+1588039911 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\svm.c
+	<math.h>
+
+1585617865 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\wind_turbine.c
+	<math.h>
+
+1590170886 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\abc2dq.c
+	<math.h>
+	<stdio.h>
+
+1588390326 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\alphabeta2dq.c
+	<math.h>
+

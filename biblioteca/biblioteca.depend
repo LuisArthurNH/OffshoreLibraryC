@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1572636851 source:c:\users\luis arthur\desktop\controle_code_blocks\biblioteca\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header_functions.h"
+
+1572634075 c:\users\luis arthur\desktop\controle_code_blocks\biblioteca\header_functions.h
+
+1572633178 source:c:\users\luis arthur\desktop\controle_code_blocks\biblioteca\fileselect_output.c
+	<math.h>
+
+1572634082 source:c:\users\luis arthur\desktop\controle_code_blocks\biblioteca\filewrm.c
+	<math.h>
+
+1572805478 c:\users\luis arthur\desktop\controle_code_blocks\offshore\header_functions.h
+

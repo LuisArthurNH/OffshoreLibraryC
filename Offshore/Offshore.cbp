@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Offshore" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Offshore" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Offshore" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="abc2alphabeta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="abc2dq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="alphabeta2abc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="alphabeta2dq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="calculate_Cp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="checkzone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dq2alphabeta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="header_functions.h" />
+		<Unit filename="ini.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="init_cond.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="integrator_ini.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ramp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="select_output.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="selector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="wind_turbine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
