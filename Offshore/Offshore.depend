@@ -14,7 +14,7 @@
 1587941316 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\dq2alphabeta.c
 	<math.h>
 
-1587334941 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\ini.c
+1592607388 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\ini.c
 	<math.h>
 
 1585463065 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\init_cond.c
@@ -24,15 +24,15 @@
 1587247083 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\ramp.c
 	<math.h>
 
-1590094060 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\select_output.c
+1590449096 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\select_output.c
 	<math.h>
 
 1590025284 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\selector.c
 
-1588039911 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\svm.c
+1592603938 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\svm.c
 	<math.h>
 
-1585617865 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\wind_turbine.c
+1590439822 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\wind_turbine.c
 	<math.h>
 
 1590170886 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\abc2dq.c
@@ -41,4 +41,14 @@
 
 1588390326 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\alphabeta2dq.c
 	<math.h>
+
+1592500861 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\dq2abc.c
+	<math.h>
+	<stdio.h>
+
+1592417164 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\apagar.c
+
+1592852930 source:c:\users\luis arthur\desktop\controle_code_blocks\offshore\te_control.c
+	<math.h>
+	<stdio.h>
 

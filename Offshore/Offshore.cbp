@@ -52,6 +52,9 @@
 		<Unit filename="checkzone.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="dq2abc.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="dq2alphabeta.c">
 			<Option compilerVar="CC" />
 		</Unit>

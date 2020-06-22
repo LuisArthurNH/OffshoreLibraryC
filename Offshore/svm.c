@@ -26,7 +26,9 @@ Vtri       = *ptri;
 //
 theta = atan2(Vbeta_ref, Valpha_ref);
 v_ref = sqrt(Valpha_ref*Valpha_ref + Vbeta_ref*Vbeta_ref);
-m     = sqrt(3.0)*Ts*v_ref/Vcc;
+//m     = sqrt(3.0)*v_ref/Vcc;
+
+m = v_ref;
 //
 //================================================================================//
 //                              Setor 1
@@ -38,8 +40,8 @@ S = 1;
 
 phi = theta - (S-1)*(M_PI/3.0);
 
-T1 = m*sin((M_PI/3.0)-phi);
-T2 = m*sin(phi);
+T1 = Ts*m*sin((M_PI/3.0)-phi);
+T2 = Ts*m*sin(phi);
 T3 = Ts - T2 - T1;
 
 delta1 = T1/Ts;
@@ -76,8 +78,8 @@ S = 2;
 
 phi = theta - (S-1)*(M_PI/3);
 
-T1 = m*sin((M_PI/3.0)-phi);
-T2 = m*sin(phi);
+T1 = Ts*m*sin((M_PI/3.0)-phi);
+T2 = Ts*m*sin(phi);
 T3 = Ts - T2 - T1;
 
 delta1 = T1/Ts;
@@ -114,8 +116,8 @@ S = 3;
 
 phi = theta - (S-1)*(M_PI/3);
 
-T1 = m*sin((M_PI/3.0)-phi);
-T2 = m*sin(phi);
+T1 = Ts*m*sin((M_PI/3.0)-phi);
+T2 = Ts*m*sin(phi);
 T3 = Ts - T2 - T1;
 
 delta1 = T1/Ts;
@@ -152,8 +154,8 @@ S = 4;
 
 phi = theta - (S-1)*M_PI/3;
 
-T1 = m*sin((M_PI/3.0)-phi);
-T2 = m*sin(phi);
+T1 = Ts*m*sin((M_PI/3.0)-phi);
+T2 = Ts*m*sin(phi);
 T3 = Ts - T2 - T1;
 
 delta1 = T1/Ts;
@@ -191,8 +193,8 @@ S = 5;
 
 phi = theta - (S-1)*M_PI/3;
 
-T1 = m*sin((M_PI/3.0)-phi);
-T2 = m*sin(phi);
+T1 = Ts*m*sin((M_PI/3.0)-phi);
+T2 = Ts*m*sin(phi);
 T3 = Ts - T2 - T1;
 
 delta1 = T1/Ts;
@@ -229,8 +231,8 @@ S = 6;
 
 phi = theta - (S-1)*M_PI/3;
 
-T1 = m*sin((M_PI/3.0)-phi);
-T2 = m*sin(phi);
+T1 = Ts*m*sin((M_PI/3.0)-phi);
+T2 = Ts*m*sin(phi);
 T3 = Ts - T2 - T1;
 
 delta1 = T1/Ts;

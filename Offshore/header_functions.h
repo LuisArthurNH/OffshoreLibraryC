@@ -12,8 +12,11 @@ void alphabeta2dq_(double *palpha, double *pbeta, double *ptheta, double *ptheta
 
 void dq2alphabeta_(double *pd, double *pq, double *ptheta, double *pthetazero, double *palpha, double *pbeta);
 
+void dq2abc_(double *pd, double *pq, double *pzero,double *ptheta, double *pa, double *pb, double *pc);
+
 void svm_(double *pvalpha_ref, double *pvbeta_ref, double *pvcc, double *ptri, double *ps1, double *ps2, double *ps3, double *pS);
 
+void te_control_(double *pTe_ref,double *pP, double *plambda_m, double *pIq_ref);
 
 // Wind Turbine FUNCTIONS
 void checkzone_(double *pvw, double *pwrm_ref, int *ctrl_mode);
